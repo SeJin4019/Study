@@ -38,7 +38,6 @@ ON A.a = B.a;
 <br>
 
 ### OUTER JOIN 종류
-<br>
 -LEFT OUTER JOIN : 왼쪽 테이블의 모든 값이 출력되는 조인 
 -RIGHT OUTER JOIN : 오른쪽 테이블의 모든 값이 출력되는 조인
 -FULL OUTER JOIN : 왼쪽 또는 오른쪽 테이블의 모든 값이 출력되는 조인
