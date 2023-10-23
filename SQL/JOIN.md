@@ -33,3 +33,22 @@ FROM A JOIN B
 ON A.a = B.a;
 ```
 <br>
+
+### LEFT OUTER JOIN
+- 왼쪽 테이블에 있는 데이터를 추가로 가져온다
+- 교집합 되지 않은 A에 있는 데이터를 추가로 가져오겠다는 의미
+- A,B INNER JOIN + A에 있는 데이터
+
+```SQL
+-- Oracle JOIN
+SELECT a,b,c,d,e,f,k
+FROM A,B
+WHERE A.a = B.a(+); (left 조인이면 +부호를 오른쪽에)
+```
+
+```SQL
+-- ANSI JOIN
+SELECT a,b,c,d,e,f,k
+FROM A LEFT OUTER JOIN B
+ON A.a = B.a; 
+```
