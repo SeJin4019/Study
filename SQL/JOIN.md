@@ -18,19 +18,18 @@ FROM <첫 번째 테이블>
   ON <조인 조건>
 [WHERE 검색 조건]
 ```
-
+<br>
 ```SQL
 -- Oracle JOIN
 SELECT a,b,c,d,e,f,k (A,B 테이블에 있는 칼럼 가져올 수 있음)
 FROM A, B
 WHERE A.a = B.a; (A테이블의 a와 B테이블의 a가 같 떄)
 ```
-
+<br>
 ```SQL
 -- ANSI JOIN(표준화)
 SELECT a,b,c,d,e,f,k (A,B 테이블에 있는 칼럼 가져올 수 있음)
 FROM A JOIN B
 ON A.a = B.a;
 ```
-
 <br>
