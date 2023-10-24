@@ -57,7 +57,20 @@
    - 크게 2가지 : Query Processor(질의 처리기), Storage System(저장 시스템)
    - 입출력 단위 : 고정 길이의 page 단위로 disk에 읽거나 쓴다.
    - 저장 공간 : 비휘발성 저장 장치인 disk에 저장, 일부분을 Main Memory에 저장
+![DBMS 구조](https://github.com/SeJin4019/Study/assets/121854655/7a9550da-10eb-454f-9ba6-fcbf1e43b2f4)
   
 2. Page Buffer Manager or Buffer Manager
    - DBMS의 Storage System에 속하는 모듈 중 하나로, Main Memory에 유지하는 페이지를 관리하는 모듈
-   - 
+   - Buffer 관리 정책에 따라, UNDO 복구와 REDO 복구가 요구되거나 그렇지 않게 되므로, transaction 관리에 <br>
+     매우 중요한 결정을 가져온다
+
+3. UNDO
+   - 필요한 이유 : 수정된 Page들이 Buffer 교체 알고리즘에 따라서 디스크에 출력 될 수 있음<br>
+     Buffer 교체는 transaction과는 무관하게 buffer의 상태에 따라서, 결정됨이로 인해,<br>
+     정상적으로 종료되지 않은 transaction이 변경한 page들은 원상 복구 되어야하는데, undo라고 함
+     
+4. REDO
+   - 이미 commit한 transaction의 수정을 재반영하는 복구 작업 Buffer 관리 정책에 영향을 받음
+  
+  [참고사항]
+  - [링크](https://gyoogle.dev/blog/computer-science/data-base/Transaction.html)
