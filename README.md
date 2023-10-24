@@ -1,6 +1,5 @@
 # Study
 Back-End 공부
-
 <br>
 
 ### SQL
