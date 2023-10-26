@@ -99,7 +99,7 @@ dependencies{
 
 - Servlet, JPA의 네이 스페이스가 Jakarta로 대체
 - 패키지 네임스페이스가 javax.*에서 jakarta.*로 변경 
-    ```
+
 
     
   
