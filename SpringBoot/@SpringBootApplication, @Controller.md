@@ -23,7 +23,8 @@ public static void main(String[] args){
 
 @EnableAutoConfiguration
 // 자동구성을 활성화하는 애너테이션 (부트 서버가 실행될 때 부트 메타 파일을 읽고 정의도니 설정들을 자동으로 구성하는 역할
-// spring.facctories 파일 클래스 모두 사용될 때 자동사용됨 
+// spring.facctories 파일 클래스 모두 사용될 때 자동사용됨
+// 자동설정으로 등록되는 빈을 읽고 등록
 ```
 
 # @RestController
