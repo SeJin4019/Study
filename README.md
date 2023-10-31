@@ -6,6 +6,7 @@ Back-End 공부
 - [JOIN](https://github.com/SeJin4019/Study/blob/main/SQL/JOIN.md)
 - [CREATE, INSERT, UPDATE, DELETE](https://github.com/SeJin4019/Study/blob/main/SQL/CREATE%2C%20INSERT%2C%20UPDATE%2C%20DELETE.md)
 - [Transaction](https://github.com/SeJin4019/Study/blob/main/SQL/Transaction.md)
+- [GROUP BY, HAVING](https://github.com/SeJin4019/Study/blob/main/SQL/%EA%B7%B8%EB%A3%B9%ED%95%A8%EC%88%98.md)
 
 
 ### Spring Boot
