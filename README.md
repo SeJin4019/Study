@@ -15,3 +15,4 @@ Back-End 공부
 - [IoC, DI, 스프링 컨테이너](https://github.com/SeJin4019/Study/blob/main/SpringBoot/IoC%2C%20DI%2C%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
 - [@SpringBootApplication, @Controller](https://github.com/SeJin4019/Study/blob/main/SpringBoot/%40SpringBootApplication%2C%20%40Controller.md)
 - [스프링부트 구조](https://github.com/SeJin4019/Study/blob/main/SpringBoot/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%20%EA%B5%AC%EC%A1%B0.md)
+- [JUnit](https://github.com/SeJin4019/Study/blob/main/SpringBoot/JUnit.md)
