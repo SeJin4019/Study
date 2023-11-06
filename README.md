@@ -9,7 +9,7 @@ Back-End 공부
 - [GROUP BY, HAVING](https://github.com/SeJin4019/Study/blob/main/SQL/%EA%B7%B8%EB%A3%B9%ED%95%A8%EC%88%98.md)
 - [View](https://github.com/SeJin4019/Study/blob/main/SQL/View.md)
 - [UNION, UNION ALL](https://github.com/SeJin4019/Study/blob/main/SQL/UNION%2C%20UNION%20ALL.md)
-
+- [ORDER BY](https://github.com/SeJin4019/Study/blob/main/SQL/ORDER%20BY.md)
 
 ### Spring Boot
 - [자바 백엔드 개발자가 알아두면 좋은 지식](https://github.com/SeJin4019/Study/blob/main/SpringBoot/%EC%9E%90%EB%B0%94%20%EB%B0%B1%EC%97%94%EB%93%9C%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80%20%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4%20%EC%A2%8B%EC%9D%80%20%EC%A7%80%EC%8B%9D.md)
