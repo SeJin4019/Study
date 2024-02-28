@@ -43,7 +43,8 @@ if (condition1) {
 if문에 else if를 함께 사용하는 것은 서로 연관된 조건일 때 사용
 서로 관련이 없는 독립 조건이면 else if를 사용하지 않고 if문을 각각 따로 사용
 ``` java
-// 예시1. if-else 사용: 서로 연관된 조건이어서, 하나로 묶을 때 if (condition1) {
+// 예시1. if-else 사용: 서로 연관된 조건이어서, 하나로 묶을 때
+if (condition1) {
 // 작업1 수행
 } else if (condition2) {
 // 작업2 수행 }
