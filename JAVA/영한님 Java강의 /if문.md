@@ -48,7 +48,8 @@ if (condition1) {
 // 작업1 수행
 } else if (condition2) {
 // 작업2 수행 }
-// 예시2. if 각각 사용: 독립 조건일 때 if (condition1) {
+// 예시2. if 각각 사용: 독립 조건일 때
+if (condition1) {
 // 작업1 수행 }
 if (condition2) { // 작업2 수행
 }
